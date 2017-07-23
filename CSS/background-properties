@@ -1,0 +1,12 @@
+/* Common BG Properties * /
+
+background-color = Sets the background color of an element
+
+background-image = Sets the background image for an element
+
+background-position	= Sets the starting position of a background image
+
+background-attachment = Sets whether a background image is fixed or scrolls with the rest of the page
+
+background-repeat = Sets how a background image will be repeated
+

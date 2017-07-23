@@ -1,0 +1,73 @@
+/* 
+
+RESPONSIVE IMAGES ---------------------------------------------------------------------
+https://teamtreehouse.com/library/responsive-images
+
+HTML Attributes - srcset and size
+
+HTML Element - picture
+
+Srcset - use if changing resolutions. The browser decides which is best. 
+
+sizes - takes one of more CSS media conditions and ends with a length unit.
+        This tells the browser how much space the image should take up in the layout.
+
+PictureFill - a polyfill (piece of javascript) used to make sure pieces of HTML work in old browsers as well as current browsers. 
+
+
+Responsive Images Quiz: -------------------------------------------------------------------
+
+What are the primary advantages of using HTML elements and attributes for responsive images 
+instead of CSS background images?
+    Better for SEO, accessibility, and separation of structure and presentation
+
+Why can 2x photographs have a higher amount of JPEG compression?
+    When 2x images are resized in the layout, the scale of JPEG artifacts tends to be reduced.
+    
+What's the advantage of using HTML to deliver responsive images rather than a JavaScript library?
+    HTML is faster - JS is more error prone than declarative HTML. 
+    HTML allows content parsers to pick up images
+    
+What types of images work best as SVGs? - images that have large flat areas of color
+
+What type of image is best delivered in JPEG format? - Photographs
+
+In general, what's wrong with sending a single high resolution image to every device?
+    Waster bandwidth, especially on 1x devices and smaller mobile screens
+    
+
+
+SrcSet with Picturefill Quiz: ----------------------------------------------------------------
+When using the srcset attribute, it's up to browser vendors to make the most intelligent choice about which file to deliver. Why might this be desirable behavior when we could instead maintain full control over image source selection using the picture element?
+    If browser vendors come up with a better way to choose sources or new devices come along, this
+    keeps devs from having to figure out how to implement, since it will be handled by browsers. 
+
+When using a polyfill, what happens to browsers that have native support for the polyfilled feature?
+    Browsers that support our HTML natively will work as intended, and browsers that don't
+    will use the polyfill. 
+    
+What is a polyfill?
+    a piece of javascript that will make specific features work in older browsers that don't support them natively.
+
+How does the srcset attribute differ from the src attribute?
+    srcset allows use to specify multiple files for a single image. 
+
+
+
+
+
+
+
+
+
+ 
+
+
+RESPONSIVE LAYOUT: 
+
+
+
+
+
+
+

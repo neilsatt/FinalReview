@@ -1,0 +1,20 @@
+https://teamtreehouse.com/library/css-selectors
+
+https://teamtreehouse.com/library/practice-css-selectors
+
+
+Attribute Selectors 
+    Target any element that has a class attribute:
+        [class] {
+            border: solid 1px black;
+        }
+    
+    Target an input with a type value of submit:
+        input[type="submit"] {
+            background-color: green;
+        }
+    
+    Targets <a> elements with a target value of _blank:
+        a[target="_blank"] {
+            color: tomato;
+        }

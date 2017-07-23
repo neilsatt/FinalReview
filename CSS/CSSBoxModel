@@ -1,0 +1,42 @@
+https://teamtreehouse.com/library/practice-the-css-box-model
+
+
+All HTML elements are rectangular boxes... 
+
+In CSS, each of these rectangular boxes is described using the standard box model. This model describes the space of the content taken by an element. Each box has four edges: the margin edge, border edge, padding edge, and content edge.
+
+
+Inner Box is the Content, then Padding, Border, and finally Margin
+
+Margin
+   |
+Border
+   |
+Padding
+   |
+Content
+
+
+
+If the CSS box-sizing property is set to default, the CSS properties:
+    width, min-width, max-width, 
+    height, min-height and max-height 
+control the content size.
+
+
+The space between the padding and the content edge can be controlled using:
+    padding-top, padding-right, padding-bottom, padding-left 
+    and the shorthand padding CSS 
+    
+The size of the margin area is controlled using:
+    margin-top, margin-right, margin-bottom, margin-left 
+    and the shorthand margin CSS properties
+    
+    
+The total width of an element calculation:
+
+        width + left padding + right padding + left border + right border + left margin + right margin
+
+The total height of an element calculation:
+
+        height + top padding + bottom padding + top border + bottom border + top margin + bottom margin
