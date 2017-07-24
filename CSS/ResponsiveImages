@@ -1,18 +1,17 @@
-/* 
-
 RESPONSIVE IMAGES ---------------------------------------------------------------------
 https://teamtreehouse.com/library/responsive-images
 
-HTML Attributes - srcset and size
+HTML Attributes - srcset and sizes
 
 HTML Element - picture
 
-Srcset - use if changing resolutions. The browser decides which is best. 
+Srcset - We can provide multiple image sources for different
+         reponsive resolutions and pixel densities. Use if changing resolutions. 
 
 sizes - takes one of more CSS media conditions and ends with a length unit.
         This tells the browser how much space the image should take up in the layout.
 
-PictureFill - a polyfill (piece of javascript) used to make sure pieces of HTML work in old browsers as well as current browsers. 
+Picturefill -  A responsive image polyfill. The picture element, srcset and sizes attributes, and associated features allow web developers to deliver an appropriate image to every user depending on a variety of conditions like screen size, viewport size, screen resolution, and more.
 
 
 Responsive Images Quiz: -------------------------------------------------------------------
@@ -54,16 +53,46 @@ How does the srcset attribute differ from the src attribute?
 
 
 
+Adding Sizes Quiz: ----------------------------------------------------------------------------- 
 
+What does the sizes attribute indicate to the browser?
+    How much space an image should take up in the layout
+    
+    
+The sizes attribute takes one or more CSS media conditions and ending with a length unit:
+    True
+    
+If an image is 1000px wide and displayed @2x, how many CSS pixels wide will it be in the layout?
+    500px
 
+What's the difference between the length values in the srcset attribute versus the media conditions and length values in the sizes attribute?
+    The source set attribute tells the browser the native width of the image in pixels in pixels. 
+    The sizes attribute tells the browser how much space that image will take up in the layout. 
+    
+    
+Art Direction Quiz: --------------------------------------------------------------------------
+    
+What is art direction? 
+    Art direction is a technique for drawing attention to the most important parts of an image
+    as it's viewed on different devices.
+    
+When using srcset on an image element, Chrome will always use the lowest resolution image in cache 
+    False
+    
+Banner Image orientation is?
+    Landscape
+    
 
+    
 
+    
 
+    
 
  
 
 
-RESPONSIVE LAYOUT: 
+
 
 
 
