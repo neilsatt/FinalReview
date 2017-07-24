@@ -1,0 +1,85 @@
+https://teamtreehouse.com/library/responsive-layouts
+
+http://blog.teamtreehouse.com/modern-field-guide-responsive-web-design
+
+In general, responsive design consists of 
+- Fluid grids 
+- Fluid images
+- Media queries
+
+
+Relative Units and Percentages -------------------------------------------------------------
+Quiz: 
+Elements that use percentages are relative to their parent container
+
+Instead of fixed units like pixels, what are the units of responsive design?
+    Relative units like percentages or ems
+    
+ems - Equal to the computed value of the ‘font-size’ property of the element on which it is used.
+
+Which of the following is a relative unit in CSS?
+    em
+
+
+
+Media Queries -------------------------------------------------------------------------------
+Media queries are CSS rules that help us include CSS code only when certain conditions are met. 
+The media feature most commonly used is width, or more specifically, min-width.
+
+Quiz:
+What is a media feature?
+    The expression or set of conditions inside a media query 
+
+What are media queries?
+    CSS rules that include CSS code only when certain conditions are met
+    
+Which is not a media feature?
+    pixel
+    
+    
+Breakpoints ---------------------------------------------------------------------------------
+Breakpoint a width where the current layout no longer works and the layout breaks. 
+If the layout breaks, then it necessitates a media query that adjusts the layout.
+
+Quiz:
+Breakpoint - any media query that adjusts the layout based on a certain width
+
+Practical Cost of creating breakpoints?
+    Each breakpoint slightly increases the complexity of design and code
+    
+Breakpoints should be created based on the width of popular screen sizes
+    True
+    
+Why should breakpoints be used in combination with fluid grids? 
+    In a mobile first approach, a single column layout won't look good when stretched
+    across a large monitor. The layout breaks. 
+    
+    
+Responsive Design Patterns ------------------------------------------------------------------   
+Review Flexbox - https://teamtreehouse.com/library/flexbox-2
+
+What is Flexbox?
+    A collection of CSS properties for adjusting page layout based on different screen sizes.
+    
+In general, how many columns should be included in a portrait-mode mobile layout?
+    Most mobile layouts are a single column, because of scrolling
+    
+Why is it important to create breakpoints based on content rather than based on popular 
+device screen sizes?
+    So they will be ready for devices/sizes that haven't been created yet. Future-proofing. 
+    
+Consider the following media query:
+@media only screen and (min-width: 768px)
+Will this media query be applied if the width of the browser is 768 pixels across?  
+    Yes, min-width is inclusive
+    
+In computer programming, two common boolean operators are "and" and "or". Media queries 
+use the keyword "and", but how could a media query represent an "or" if there's no keyword for it?
+    Media queries can express and 'or' by using a comma to separate two different queries
+    
+
+    
+
+
+
+    
