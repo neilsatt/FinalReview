@@ -3,9 +3,9 @@ https://teamtreehouse.com/library/css-selectors
 https://teamtreehouse.com/library/practice-css-selectors
 
 
-Attribute Selectors 
+ATTRIBUTE SELECTORS -------------------------------------------------------------
     Target any element that has a class attribute:
-        [class] {
+        .class {
             border: solid 1px black;
         }
     
@@ -18,3 +18,66 @@ Attribute Selectors
         a[target="_blank"] {
             color: tomato;
         }
+        
+CODE CHALLENGE ------------------------------------------------------------------
+
+Create an attribute selector that targets img elements with a title attribute 
+value of "avatar". Give the elements a border radius of 50%.
+
+img[title="avatar"] {
+    border-radius: 50%;
+}
+
+Create a new attribute selector that targets input elements with a type attribute 
+value of password. Then, set the color to #ccc.
+
+input[type="password"] {
+    color: #ccc;
+}
+
+----------------------------------------------------------------------------------
+COMBINATORS - give us the flexibility of targeting any siblings of an element
+    
+    >   targets a direct child of an element (child selector)
+        form > a {
+            font-size: .7em;
+        }
+    
+    
+    +   targets an element's immediate sibling (adjacent sibling selector)
+        .btn +  .btn {
+            margin-left: 20px;
+        }
+    
+    
+    ~   targets all the specified siblings that follow an element (general sibling selector)
+        h1 ~ label {
+            color: white;
+        }
+        
+        
+CODE CHALLENGE ------------------------------------------------------------------
+Create a child selector that targets li elements that are direct children of .main-nav. Set the display to inline-block and the left margin to 20px.
+
+.main-nav  > li {
+  display: inline-block;
+  margin-left : 20px;
+}  
+
+We need to decrease the space between h2 elements and the paragraph that immediately follows. Create a new selector that targets p elements that are adjacent siblings of an h2. Then, set the top margin to .5em.
+
+h2  + p {
+  margin-top : .5em;
+}  
+
+
+
+----------------------------------------------------------------------------------
+QUIZ 
+Which of the following statements about child selectors is true?
+    They target elements that are direct children of an element
+
+The general sibling selector uses a '~' as its combinator
+
+The adjacent sibling selector uses a '+' as its combinator
+    
