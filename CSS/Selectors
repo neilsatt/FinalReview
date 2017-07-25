@@ -1,8 +1,5 @@
 https://teamtreehouse.com/library/css-selectors
 
-https://teamtreehouse.com/library/practice-css-selectors
-
-
 ATTRIBUTE SELECTORS -------------------------------------------------------------
     Target any element that has a class attribute:
         .class {
@@ -18,6 +15,7 @@ ATTRIBUTE SELECTORS ------------------------------------------------------------
         a[target="_blank"] {
             color: tomato;
         }
+
         
 CODE CHALLENGE ------------------------------------------------------------------
 
@@ -80,4 +78,76 @@ Which of the following statements about child selectors is true?
 The general sibling selector uses a '~' as its combinator
 
 The adjacent sibling selector uses a '+' as its combinator
+
+------------------------------------------------------------------------------------
+PRACTICE SELECTORS 
+https://teamtreehouse.com/library/practice-css-selectors
+
+/* ====================================================== 
+   Practice CSS Selectors 
+========================================================= */
+
+/* Change the color of all list items inside an unordered list */
+   Descendant Selector
+    ul  li {
+     color: blue;
+    }
+
+
+/* Remove the text decoration from navigation links, and change their color when hovered */
+   Descendant Selector
+   nav a {
+    text-decoration: none;
+   }
+   
+   nav a:hover {
+    color: skyblue;
+   }
+
+
+/* Create visited and hover styles for all links inside 'main' */
+   main a:hover {
+    color: tomato;
+    text-decoration: none;
+   }
+   
+   main a:visited {
+     color: skyblue;
+   }
+
+
+/* 
+ Change the background color of the submit button when active.
+ Check teacher's notes for resources on this part of the challenge. */
+    input[type='submit']:active {
+        background: firebrick;
+    }
+
+
+/* Give the text field a blue border upon focus.
+   Check teacher's notes for resources on this part of the challenge. */
+   input[type="text"]:focus {
+     border: 1px solid #4683af;
+   }
+
+
+/* Give the 'span' tag in the footer a meaningful class name and reduce its font size */
+    .copyright {
+      font-size: 12px;
+    }
+
+
+/* Give the 'img' tag in the header an ID and set its width to 190px */
+    #site-logo{
+        width: 190px;
+    }
+
+
+
+/* Target all heading tags on the page and set their font family to 'Bree Serif', serif */
+ h1, 
+ h2, 
+ h3 {
+    font-family: 'Bree Serif', serif;
+ }
     
