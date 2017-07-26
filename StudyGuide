@@ -13,7 +13,7 @@ CSS:
 
 
 JavaScript:
-    Functions - 
+    Functions - DONE 
     DOM Manipulation - 
     Arrays - 
     Objects - 
@@ -23,17 +23,11 @@ JavaScript:
     JSON - 
     
     
-    
-Course Review (review all exercises): 
-
+    Course Review (review all exercises): 
     https://teamtreehouse.com/library/html-forms
-
     https://teamtreehouse.com/library/responsive-images
-    
     https://teamtreehouse.com/library/css-layout-basics
-    
     https://teamtreehouse.com/library/javascript-loops-arrays-and-objects
-    
     https://teamtreehouse.com/library/javascript-and-the-dom-2
     
     
@@ -53,8 +47,18 @@ https://teamtreehouse.com/library/create-a-form-element - FORM LABELS?
 https://teamtreehouse.com/library/add-fieldsets-and-legends
 
 CSS:
+Part 1:
+https://teamtreehouse.com/library/css-layout-basics/getting-started-with-css-layout/layout-wrapper-challenge
+https://teamtreehouse.com/library/css-layout-basics/controlling-layout-with-css-display-modes/css-display-modes-challenge
+https://teamtreehouse.com/library/css-layout-basics/page-layout-with-the-float-property/footer-layout-with-floats
+https://teamtreehouse.com/library/css-layout-basics/positioning-page-content/css-positioning-challenge
 
-
+Part 2: 
+https://teamtreehouse.com/library/css-basics/basic-layout/-floats
+https://teamtreehouse.com/library/css-basics/basic-layout/styling-the-wildlife-div-with-background-properties
+https://teamtreehouse.com/library/how-to-make-a-website/styling-web-pages-and-navigation/make-a-css-image-gallery
+https://teamtreehouse.com/library/css-basics/the-box-model/padding-borders-and-margins
+https://teamtreehouse.com/library/css-selectors/selectors-beyond-the-basics/attribute-selectors-challenge
 
 
 JAVASCRIPT:
@@ -62,4 +66,4 @@ FUNCTIONS
 https://teamtreehouse.com/library/javascript-basics/creating-reusable-code-with-functions/creating-a-function - DONE 
 https://teamtreehouse.com/library/javascript-basics/creating-reusable-code-with-functions/returning-a-value-from-a-function - DONE 
 https://teamtreehouse.com/library/javascript-basics/creating-reusable-code-with-functions/passing-an-argument-to-a-function - DONE 
-https://teamtreehouse.com/library/javascript-basics/creating-reusable-code-with-functions/create-a-max-function
+https://teamtreehouse.com/library/javascript-basics/creating-reusable-code-with-functions/create-a-max-function - DONE 

@@ -38,8 +38,26 @@ calculateArea( 5, 4 ); // 20
 
     When you call a function you pass an "argument" which is 
     stored in a "parameter" in the function
-    
+      
+*/
+
+/* 
+    MAX function -  accepts two numbers as arguments (you can name the arguments, whatever you would like). 
+    The function should return the larger of the two numbers. Use a conditional statement. 
     
 */
 
+function max(num1, num2) {
+    if(num1 > num2) {
+        return num1;
+    } else {
+        return num2;
+    }
+}
 
+
+/* 
+    Beneath the max function you just created, call it with two numbers and display the results in an alert dialog. Pass the result of the function to the alert method.
+*/ 
+
+alert ( max(3,4) );
