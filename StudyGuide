@@ -3,14 +3,12 @@ HTML:
     HTML Lists - DONE 
     Semantic Markup - DONE
 
-
 CSS:
     CSS Box Model - DONE 
     Background Properties - DONE 
     Responsive Layout - DONE
     Responsive Images - DONE 
     Selectors - DONE 
-
 
 JavaScript:
     Functions - DONE 
@@ -19,20 +17,20 @@ JavaScript:
     Objects - 
     Strings - 
     Numbers - 
-    Loops - 
+    Loops - DONE 
     JSON - 
     
     
-    Course Review (review all exercises): 
+Course Review (review all exercises): 
     https://teamtreehouse.com/library/html-forms
     https://teamtreehouse.com/library/responsive-images
     https://teamtreehouse.com/library/css-layout-basics
-    https://teamtreehouse.com/library/javascript-loops-arrays-and-objects  - NOW 
+    https://teamtreehouse.com/library/javascript-loops-arrays-and-objects  - DONE 
     https://teamtreehouse.com/library/javascript-and-the-dom-2
     
     
     
-CODE CHALLENGES --------------------------------------------------------------------------
+CODE CHALLENGES -------------------------------------------------------------------
 HTML:
 Part 1:
 https://teamtreehouse.com/library/how-to-make-a-website/html-first/use-html-elements
