@@ -28,3 +28,25 @@ for (prop in student) { // this time use prop as the variable, just because
     console.log(prop, ': ', student[prop]); // use a comma for the value
     // and then you HAVE to use bracket notation to get the prop value 
 }
+
+/* Arrays of Objects */
+var tasks = [
+  {
+      name: "Do homework",
+      due: "01/27/2016",
+      complete: false,
+      assignedTo: "Dave"
+  },
+ {
+      name: "Go to gym",
+      due: "01/27/2015",
+      complete: true,
+      assignedTo: "Cecilia"
+  },
+ {
+      name: "Complete JavaScript course",
+      due: "05/27/2015",
+      complete: false,
+      assignedTo: "You"
+  }
+];
