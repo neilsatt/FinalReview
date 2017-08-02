@@ -1,0 +1,67 @@
+/* Center a div */
+margin: auto;
+
+/* 
+    Display the list items inside .main-nav side by side. Use the display value that generates a 
+    block element that flows with surrounding content.
+    <ul class="main-nav">
+				<li><a href="#">Ice cream</a></li>
+				<li><a href="#">Donuts</a></li>
+				<li><a href="#">Tea</a></li>
+				<li><a href="#">Coffee</a></li>
+    </ul>
+*/
+
+.main-nav li {
+  display: inline-block;
+}
+
+/* 
+    Change the display of .main-nav to the display value that generates a block element that doesn't take up a full line.
+*/
+
+.main-nav {
+  display: inline-block;
+}
+
+/* 
+The <ul> with the class main-nav is a block-level element by default, so it takes up the full width of its container. 
+Let's set .main-nav to be as wide as the content inside it. Change the display of .main-nav to the display value that 
+generates a block element that doesn't take up a full line.
+*/
+
+.logo {
+  width: 110px;
+  margin: auto;
+  display: block;
+}
+
+/* 
+  Float .footer-nav to the left edge of the footer and .logo to the right edge.
+*/
+
+.footer-nav {
+ float: left; 
+}
+
+.logo {
+ float: right; 
+}
+
+/* 
+    The floats inside the <footer> caused its height to collapse. Give the <footer> element the class that will clear all floats inside it.
+
+    html:
+     <footer class="clearfix">
+
+*/
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
