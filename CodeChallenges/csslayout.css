@@ -54,14 +54,58 @@ generates a block element that doesn't take up a full line.
     html:
      <footer class="clearfix">
 
+A clearfix is a way for an element to automatically clear its child elements
+
 */
 
 
 .clearfix::after {
-  content: "";
+  content: ""; /* Older browser do not support empty content */
   display: table;
-  clear: both;
+  clear: both;  /* No floating elements allowed on the left or the right side of the element */
 }
 
+/* 
+The copyright text in the footer needs to be moved down below the floated elements. 
+Select .copyright and apply the property and value that clears both the left and right floats.
+*/
 
+/* 
+    Add the property and value that takes .content-lodging out of the normal page flow and places it along the right side of its container.
+*/
+
+.content-lodging {
+    float: left;
+}
+
+/* 
+    CSS background image, no repeating, center,  fills the entire background of the container while maintaining the width and height proportions.
+    box-sizing property and value that forces any padding and border widths into its total width and height
+
+    Box-sizing = div elements should have padding and border included in the element's total width and height:
+*/
+
+background-image: url("img/paper.gif");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+
+
+/* Attribute selectors 
+    Create an attribute selector that targets img elements with a title attribute value of "avatar". 
+    Give the elements a border radius of 50%.
+*/
+
+img[title="avatar"]{
+  border-radius: 50%;
+}
+
+/* 
+    Create a new attribute selector that targets input elements with a type attribute value of password. Then, set the color to #ccc.
+*/
+
+input[type="password"]{
+  color: #ccc;
+}
 
