@@ -109,3 +109,22 @@ input[type="password"]{
   color: #ccc;
 }
 
+/* 
+  Add CSS that will allow all images to fill their parent element.
+*/
+img {
+    width: 100%;
+}
+/* 
+  Remove padding, margin, and bullets
+*/
+#gallery {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#gallery li {
+ float: left;
+  width: 45%;
+}
