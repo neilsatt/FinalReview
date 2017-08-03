@@ -128,3 +128,9 @@ img {
  float: left;
   width: 45%;
 }
+/* style the top border */
+.wildlife {
+  border-top: solid orange 10px;
+}
+
+
