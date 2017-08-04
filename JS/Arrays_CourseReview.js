@@ -1,3 +1,5 @@
+// From https://teamtreehouse.com/library/javascript-loops-arrays-and-objects
+
 /* Arrays-  a data structure for holding multiple pieces of information */
 
 var scores = [100, 99, 99, 72, 60]; // numbers 

@@ -1,3 +1,5 @@
+// From https://teamtreehouse.com/library/javascript-loops-arrays-and-objects
+
 /* While Loops */
 var counter = 1;
 while ( counter <= 10 ) {
