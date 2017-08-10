@@ -81,17 +81,42 @@ for( let i = 0; i < evens.length; i += 1){
     Challenge 
     On line 1 of app.js, set the variable listItems to refer to a collection. 
     The collection should contain all list items in the unordered list element with the id of rainbow.
-    let listItems = document.querySelectorAll('#rainbow');
+    let listItems = document.querySelectorAll('#rainbow li');
 */ 
 
+
+/*  Challenges
+    1. select all links in the nav element and assign them to navigationLinks.
+    <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        
+    let navigationLinks = document.querySelectorAll('nav a'); 
+    
+    
+    2. select all links in the unordered list with the id of "gallery" and assign them to galleryLinks.
+        document.querySelectorAll('#gallery a');
 
 
 // ----------------------------------------------------------------------------
 // 3. Making Changes to the DOM - replacing and changing text, add and remove nodes
+   let myHeading = document.querySelector('hi');
+   myHeading.textContent = 'New heading';
 
-
-
-
+   innerHTML can also read and alter elements 
+   let ul = document.querySelector('ul'); 
+   ul.innerHTML; // returns all of the ul content, including li elements and text
+   
+   // Changing Element Attributes
+   input.type
+   "text"
+   input.type = 'checkbox' // changed the type
+   
+   
+   Stopped after Modifying Elements 
 
 
 // ----------------------------------------------------------------------------
