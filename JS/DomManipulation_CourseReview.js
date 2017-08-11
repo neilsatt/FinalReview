@@ -116,7 +116,49 @@ for( let i = 0; i < evens.length; i += 1){
    input.type = 'checkbox' // changed the type
    
    
-   Stopped after Modifying Elements 
+   Styling Elements 
+   In console, see a element's styles = p.style
+   Change style = p.style.color = 'blue'
+
+   Toggle an element
+   myDiv.style.display = 'none';
+   myDiv.style.display = 'block';
+   
+   Creating New DOM Elements - document.createElement()
+   let li = document.createElement('li'); // created 
+   li.textContent = addItemInput.value;
+   
+   Appending Nodes - this will add elements to the page - Node.appendChild(childElement)
+   ul.appendChild(li); // no parenthesis
+   
+   
+   Removing Nodes - removeChild(childElement);
+   
+   
+   
+   
+   Quizzes
+   What property can you use to change an element's class name with JavaScript?
+    className
+
+   What property can you use to change an element's style with JavaScript?
+    style
+    
+   Select the unordered list element and store it in the variable myList
+    let myList = document.getElementsByTagName('ul')[0];
+   
+   Remove the list item element stored in firstListItem from the DOM
+    myList.removeChild(firstListItem);
+    
+   How does appendChild know where to place an element within a web page?
+    By looking at the element appendChild was called on, and nesting the new element inside
+    
+  The removeChild method can be called on an element which is a child of another element.
+    True
+    
+  The appendChild method can also be used to remove elements from the DOM.
+    False
+   
 
 
 // ----------------------------------------------------------------------------
