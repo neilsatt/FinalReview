@@ -170,5 +170,7 @@ for( let i = 0; i < evens.length; i += 1){
 
 
 
+
+
 // ----------------------------------------------------------------------------
 // 5. Traversing the DOM - moving around the nodes in the DOM 
