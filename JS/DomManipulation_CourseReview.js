@@ -197,12 +197,20 @@ for( let i = 0; i < evens.length; i += 1){
         This is called "event bubbling".
         
         
-    body
-    ul
+    body - PARENT/ANCESTOR
+    ul - PARENT/ANCESTOR
     li - clicking here, also moves upward or bubbles up the DOM tree
     Bubbling allows us to listen for events on ancestor elements, instead of adding 
     event listeners to every element.
     
+    
+    Add and Event Listener to a parent element and let it handle events on it children
+    event.target.tagName
+    button.addEventListener('click', function(event){
+    if(event.target.tagName === 'LI') {  // only select li items, needs to be all caps
+            event.target.textContent = 'hi';
+        }
+    });
     
     
     
