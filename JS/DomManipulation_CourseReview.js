@@ -135,8 +135,6 @@ for( let i = 0; i < evens.length; i += 1){
    Removing Nodes - removeChild(childElement);
    
    
-   
-   
    Quizzes
    What property can you use to change an element's class name with JavaScript?
     className
@@ -163,13 +161,72 @@ for( let i = 0; i < evens.length; i += 1){
 
 // ----------------------------------------------------------------------------
 // 4. Responding to User Interaction - Events
+      Examples: click, dblclick, mousedown, mouseover, touch (mobile), keyboard, etc. 
 
-
-
-
-
-
-
+    Functions as Parameters
+    function say(something) {
+        console.log(something);
+    }
+    function exec(func, arg){
+      func(arg);
+    }
+    exec(say,'hello');
+    
+    or
+    
+    exec(function say(something){
+     console.log('something');
+    }, 'Hi, there');
+    
+    
+    Delaying execution with setTimeout()
+    window.setTimeout(function(){ 
+            alert("Hello"); 
+        }, 3000);
+        
+    
+    addEventListener 
+        button.addEventListener('mouseover', function(){
+            doSomething();
+        });
+        
+        
+    Event Bubbling and Delegation
+        An event received by an element doesn't stop with that one element. 
+        That event moves to other elements like the parent, and other ancestors of the element. 
+        This is called "event bubbling".
+        
+        
+    body
+    ul
+    li - clicking here, also moves upward or bubbles up the DOM tree
+    Bubbling allows us to listen for events on ancestor elements, instead of adding 
+    event listeners to every element.
+    
+    
+    
+    
+    
+    
+    Quizzes:
+    Why is it useful to be able to pass one function into another
+        This allows you to have more control over when and how a function gets executed. 
+        
+    
+   How would you set up the following function `add` to run after 5 seconds have passed, 
+   using Window.setTimeout? 
+   In addition, how would you pass `add` the arguments 2 and 2 when it runs?
+        window.setTimeout(add, 5000, 2, 2);
+        
+        
+   What is the callback function that is passed to addEventListener often called?    
+    An event handler
+    
+   
+        
+        
+        
+   
 
 
 // ----------------------------------------------------------------------------

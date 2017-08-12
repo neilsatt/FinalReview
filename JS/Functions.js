@@ -61,3 +61,8 @@ function max(num1, num2) {
 */ 
 
 alert ( max(3,4) );
+
+
+// Function expressions and declarations
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function
