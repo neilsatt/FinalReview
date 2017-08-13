@@ -100,7 +100,7 @@ for( let i = 0; i < evens.length; i += 1){
     2. select all links in the unordered list with the id of "gallery" and assign them to galleryLinks.
         document.querySelectorAll('#gallery a');
 
-
+*/
 // ----------------------------------------------------------------------------
 // 3. Making Changes to the DOM - replacing and changing text, add and remove nodes
    let myHeading = document.querySelector('hi');
@@ -116,25 +116,25 @@ for( let i = 0; i < evens.length; i += 1){
    input.type = 'checkbox' // changed the type
    
    
-   Styling Elements 
+   //Styling Elements 
    In console, see a element's styles = p.style
    Change style = p.style.color = 'blue'
 
-   Toggle an element
+   //Toggle an element
    myDiv.style.display = 'none';
    myDiv.style.display = 'block';
    
-   Creating New DOM Elements - document.createElement()
+  //Creating New DOM Elements - document.createElement()
    let li = document.createElement('li'); // created 
    li.textContent = addItemInput.value;
    
-   Appending Nodes - this will add elements to the page - Node.appendChild(childElement)
+   //Appending Nodes - this will add elements to the page - Node.appendChild(childElement)
    ul.appendChild(li); // no parenthesis
    
    
-   Removing Nodes - removeChild(childElement);
+   //Removing Nodes - removeChild(childElement);
    
-   
+   /*
    Quizzes
    What property can you use to change an element's class name with JavaScript?
     className
@@ -156,7 +156,7 @@ for( let i = 0; i < evens.length; i += 1){
     
   The appendChild method can also be used to remove elements from the DOM.
     False
-   
+  */ 
 
 
 // ----------------------------------------------------------------------------
@@ -215,7 +215,7 @@ for( let i = 0; i < evens.length; i += 1){
     
     
     
-    
+    /*
     Quizzes:
     Why is it useful to be able to pass one function into another
         This allows you to have more control over when and how a function gets executed. 
@@ -229,13 +229,130 @@ for( let i = 0; i < evens.length; i += 1){
         
    What is the callback function that is passed to addEventListener often called?    
     An event handler
-    
+   */ 
    
-        
-        
-        
-   
-
 
 // ----------------------------------------------------------------------------
 // 5. Traversing the DOM - moving around the nodes in the DOM 
+
+Using parentNode to Traverse Up the DOM
+    var paragraph = document.getElementById('myParagraph');
+    to remove the paragraph, you have to have a reference to the parent element
+    var parent = paragraph.parentNode;
+    parent.removeChild(paragraph);
+    
+    
+// Traversing the DOM
+// When removing an element, you need to have a reference
+// to the parent element (parentNode)
+var listUL = listDiv.querySelector('ul');
+listUL.addEventListener()
+var li = event.target;
+var ul = li.parentNode;
+ul.removeChild(li);
+
+//Using previousElementSibling and insertBefore
+li.previousSibling.textContent; // element before in li elements
+
+prevLi = li.previousElementSibling;
+var ul = li.parentNode;
+if(prevLi) {  // run only if there is a previous sibling
+    ul.insertBefore(li, prevLi);
+}
+
+// Code Challenge - moving elements down using nextElementSibling
+li = event.target.parentNode;
+nextLi = li.nextElementSibling;
+var ul = li.parentNode;
+if(nextLi) {  // run only if there is a previous sibling
+    ul.insertBefore(nextLi, li); // there isn't an insertAfter method
+}  
+
+
+/*  Code Challenge
+A delegated click event listener has been attached to the selected ul element, which is stored in the variable list. The handler is targeting each button in the list. When any one of the buttons is clicked, a class of highlight should be added to the paragraph element immediately preceding that button inside the parent list item element. Add the code to create this behavior on line 5.
+*/
+
+const list = document.getElementsByTagName('ul')[0];
+
+list.addEventListener('click', function(e) {
+  if (e.target.tagName == 'BUTTON') {
+    // add highlight class to  paragraph
+    // immediately preceding the button
+    // inside the parent list element  
+      let p = e.target.previousElementSibling;
+      p.className = "highlight";
+    
+  }
+});
+
+
+// Getting All Children of a Node with children - returns HTML Elements
+const lis = listUL.children;
+function attachListItemButtons(li) {
+    let up = document.createElement('button');
+    up.className = 'up';
+    up.textContent = 'up';
+    li.appendChild(up);
+    let down = document.createElement('button');
+    // same process
+     let remove = document.createElement('button');
+    // same process
+}
+
+for(let i=0; i<lis.length; i++){
+    attachListItemButtons(lis[i]);
+}
+
+
+// Getting the First and Last Child
+ParentNode.firstElementChild;
+ParentNode.lastElementChild;
+
+/* 
+  older versions are firstChild and lastChild 
+  supported by more browserd, but don't return HTML elements
+  Example, traversing UL and LI elements
+*/
+var firstListItem = listUl.firstElementChild;
+firstListItem.style.backgroundColor = 'blue';
+
+
+
+
+// Quiz Questions 
+/* 
+How many nodes are needed to perform the insertBefore method?
+    3 - The parent, sibling and the reference to the node
+    
+What is DOM Traversal?
+    Selecting an element based on its relationship to another element
+    
+Why is previousElementSibling preferred to previousSibling when manipulating the DOM?
+    Unlike previousSibling, previousElementSibling always returns 
+    a DOM element
+    
+Get all the paragraph elements within section and assign them to the paragraphs variable.
+            <section>
+                <p>This is the first paragraph</p>
+                <p>This is a slightly longer, second paragraph</p>
+                <p>Shorter, last paragraph</p>
+            </section>
+            const section = document.querySelector('section');
+            let paragraphs = section.children;    
+            
+            
+            For every paragraph element change the color to be blue (use a loop)
+            
+            for(i=0; i< paragraphs.length; i++){
+                paragraphs[i].style.color = "blue";
+            }
+
+*/
+
+
+
+
+
+
+
