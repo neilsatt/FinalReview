@@ -1,0 +1,31 @@
+/* https://teamtreehouse.com/library/css-layout-basics */
+
+/* 
+
+    CSS Reset with Normalize - helps you start a css project consistently with all browsers
+    Wrapper/Container - centers the layout and keeps it from being too wide or too small 
+
+*/
+body {
+    width: 70%; /* keeps from being too wide */
+    margin: 0 auto; /* centers wrapper in browser */ 
+}
+
+/* Why vertical margins collapse 
+    Sometimes you'll see a margin gap at the top of your page
+    like a h1 tag inside a header - the margin should be inside
+    the top margin of the heading is touching the top margin of the body - the page picks the largest of the two margins
+    Ways to get rid of the gap:
+    1) set the h1 margin-top to zero
+    2) Give the main header, any padding-top value:
+        padding: 1em 0;
+*/
+
+/* Centering Page Content and Creating a full-width header 
+
+
+
+
+
+*/
+
