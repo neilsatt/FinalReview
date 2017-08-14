@@ -1,7 +1,8 @@
 /* https://teamtreehouse.com/library/css-layout-basics */
 
-/* 
 
+/* Getting Started --------------------------------------------------------------------------- */
+/* 
     CSS Reset with Normalize - helps you start a css project consistently with all browsers
     Wrapper/Container - centers the layout and keeps it from being too wide or too small 
 
@@ -11,7 +12,9 @@ body {
     margin: 0 auto; /* centers wrapper in browser */ 
 }
 
-/* Why vertical margins collapse 
+/* Why vertical margins collapse - 
+        when there is no border, padding or content area to interrupt two touching margins
+    
     Sometimes you'll see a margin gap at the top of your page
     like a h1 tag inside a header - the margin should be inside
     the top margin of the heading is touching the top margin of the body - the page picks the largest of the two margins
@@ -23,9 +26,56 @@ body {
 
 /* Centering Page Content and Creating a full-width header 
 
-
-
-
-
+    Make an inner wrapper for content
+    Leave outer elements like header and footer at 100%
+    100vh -  100% viewport relative - stands for viewport height, based on browser vp
+    calc() - used to calculate the width an element
 */
 
+/* Mobile First Layout - using media queries */
+@media (min-width: 769px) {
+    /* sticky footer */
+    .wrap {
+        min-height: calc(100vh - 89px); /* viewport relative - stands for viewport height, based on browser vp
+    }
+
+    .container{
+        width: 70%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+}
+
+/*  border-box forces the padding and borders into the width and height of the elements, instead of expanding them - containers take up exactly 70% */
+* {
+   
+    box-sizing: border-box; 
+}
+
+
+/* Sticky Footer - a footer forced to the bottom of that page regardless of content above it */
+
+
+
+
+
+
+/* Controlling Layout with Display Modes  ------------------------------------------------------*/
+
+
+
+
+
+/* Page Layout with the Float Property ---------------------------------------------------------*/
+
+
+
+
+
+/* CSS Layout Project --------------------------------------------------------------------------*/
+
+
+
+
+/* Positioning Page Content ---------------------------------------------------------------------*/
