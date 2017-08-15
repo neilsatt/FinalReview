@@ -59,19 +59,53 @@ body {
 
 
 
-
-
 /* Controlling Layout with Display Modes  ------------------------------------------------------*/
+/* 
+        
+        
+   Block (h1, paragraphs, lists) -  Naturally expand to fill their parent container div and take
+         display:block;             up the entire line. Stack on top of each other. 
+        
+   Inline (images, links, spans)
+        display:inline; // appear on the same line as elements besides them
+        
+   Inline-Block - you can style inline-block elements like block elements, such as applying
+                  width, height, top/bottom margins and padding (flow with surrounding content)
+                  
+   To remove gaps between inline and inline-block elements:
+        - apply small negative right margin
+        .main-nav li {
+            margin-right: -4px;
+        }
+        
+*/
 
+        
+        
+ /* Layout Challenge       
 
-
-
+Target the two columns inside the main container to display two equal-width columns.
+Display both columns horizontally so that they appear side by side on the same line.
+*/ 
+ .col {
+   display: inline-block;
+   width: 50%;
+   margin-right: -4px; /* remove gap so they appear on the same line */
+   vertical-align: top; /* align to top of their containers, helps when resizing */
+   padding-left: 1em; /* add a gutter in between columns */
+   padding-right: 1em;  
+ }   
+        
+        
 
 /* Page Layout with the Float Property ---------------------------------------------------------*/
+/* 
+    Floats are taken out of the normal flow - content flows along side of them (left or right)
+    
+        
 
 
-
-
+*/
 
 /* CSS Layout Project --------------------------------------------------------------------------*/
 
