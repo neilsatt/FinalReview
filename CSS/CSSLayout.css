@@ -101,11 +101,35 @@ Display both columns horizontally so that they appear side by side on the same l
 /* Page Layout with the Float Property ---------------------------------------------------------*/
 /* 
     Floats are taken out of the normal flow - content flows along side of them (left or right)
+    Float values - left, right, none 
+    Floated elements a block-level elements, but behave like inline because they aren't on 
+        their own line
     
+    *If a block level element contains a floated element, its height collapses
+     To fix, use what is known as a Clearfix:
+        - Set the parent element's overflow value to hidden or auto
+        - clear the float with a CSS pseudo-element
+     A clearfix forces a container to expand and contain the floated elements      
+*/        
+        overflow: hidden; /* con - hide content */
+        overflow: auto; /* con - can add scrollbars */
         
-
-
-*/
+        .clearfix::after { /* use whatever name you want */
+            content: ""; /* generates a blank pseudo after the element, from within the CSS*/
+            display: table; /* display as block level table */
+            clear: both; /* clears any collapsed space on both sides of container */
+        }
+        
+        /* Quiz Review 
+         Browsers display elements in the order they appear in the HTML source called:
+            normal document flow
+         How do elements appear when they are in the normal document flow?
+            block/inline stacked on top of each other, or on the same line 
+            as contents and element besides them. 
+        
+        
+        */
+        
 
 /* CSS Layout Project --------------------------------------------------------------------------*/
 
