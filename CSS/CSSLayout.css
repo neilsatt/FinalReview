@@ -146,8 +146,82 @@ Display both columns horizontally so that they appear side by side on the same l
         
 
 /* CSS Layout Project --------------------------------------------------------------------------*/
+ /* 
+   Redesign of website - work with display properties and floats
 
+   Quiz
+        The mobile first approach mostly uses what media feature?
+            min-width, since you're building from narrow to wider 
+        
 
 
 
 /* Positioning Page Content ---------------------------------------------------------------------*/
+        
+ /* 
+      Absolute Positioning 
+      Absolutely Positioned elements rely on you telling the browser where to place them, using top, right, bottom or left 
+      When you use absolute positioning, you place the absolutely positioned elements in relation to a parent container; 
+      the parent container is the positioning context. 
+      Items are taken out of the normal flow. Other items around it, don't know that it exists. 
+      top: 0px;
+      left: 0px; // the element would show up in the top left corner
+      
+      Relative Positioning 
+      Works hand in hand with Absolute Positioning
+      An element with relative positioning gives you the control to absolutely position 
+      elements anywhere inside it.
+      
+      An element with absolute positioning is always relative to the first parent 
+      that has a relative position.
+        
+      If no parent element has a relative position, the browser viewport is the 
+      positioning context by default. 
+        
+        So basically, if there isn't a parent element set to relative
+            - absolute items are positioned based on the viewport
+            - otherwise, the items are positioned based on the relative parent element
+        
+      Offsets - top, right, bottom, left
+        When you position elements with offset values, a negative offset value moves the element in the opposite direction.
+        Instead of moving the positioned element away from the top, right, bottom or left edges of its relative container, 
+        a negative value it moves it towards the top, right, bottom or left edges.
+        
+     Fixed -  an element with fixed positioning stays fixed to one spot on the page
+              fixed positioning is always relative to the browser's viewport
+        
+     The z-index property is directly related to stacking order and it's what prevents elements 
+     from overlapping other elements.
+
+     z-index works only on elements with a position property set to absolute, fixed, or relative
+        
+    
+    Quiz:
+        The offset top: 50px; will place an absolutely positioned element: 
+            50px away from the top edge of a container 
+        
+        An element with absolute positioning is always relative to:
+            The first parent that has a relative position
+        
+        Fixed positioning is a form of relative positioning that places elements 
+        in relation to their parent container.
+            False 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
