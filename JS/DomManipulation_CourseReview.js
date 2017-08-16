@@ -350,7 +350,15 @@ Get all the paragraph elements within section and assign them to the paragraphs 
 
 */
 
+// Change Input bg color
+let section = document.getElementsByTagName('section')[0];
+alert(section)
 
+section.addEventListener('click', (e) => {
+  if(e.target.tagName == "INPUT") {
+    e.target.style.backgroundColor = 'rgb(255, 255, 0)';
+  }
+});
 
 
 

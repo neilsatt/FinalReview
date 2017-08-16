@@ -125,10 +125,24 @@ Display both columns horizontally so that they appear side by side on the same l
             normal document flow
          How do elements appear when they are in the normal document flow?
             block/inline stacked on top of each other, or on the same line 
-            as contents and element besides them. 
+            as contents and element besides them.  
         
+         Display the list items inside .footer-nav side by side with a float:
         
+            .footer-nav li {
+               float: left; 
+               display: inline-block; 
+            }
         */
+        
+        /* Simple 2 column layout ideas
+            Use inline-block 
+            Create a main column class and float right or left, add minor padding
+            set primary and secondary columns widths to equal 100% (60+40, etc. )
+            
+        */
+        
+
         
 
 /* CSS Layout Project --------------------------------------------------------------------------*/
