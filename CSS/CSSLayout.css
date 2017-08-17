@@ -210,18 +210,32 @@ Display both columns horizontally so that they appear side by side on the same l
 */
         
 /* background image properties */
+  background-image: url("img/bear.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* Scales the image as large as possible and maintains image aspect ratio. The image "covers" the entire width or height of the container*/
+  box-sizing: border-box; /* forces any padding and border widths into its total width and height */
         
-background-image: url("image.png");
-background-repeat: no-repeat;
-background-position: center;       
+/* CSS image gallery */     
+        img {
+            max-width: 100%; /* allow all images to fill their parent element */
+        }
+        /* remove bullet points, margin and padding*/
+        #gallery { 
+         margin: 0;
+         padding: 0;
+         list-style-type: none; 
+        }
         
         
-        
-        
-        
-        
-        
-        
+/* Attribute Selectors */    
+/* Create an attribute selector that targets img elements with a title attribute value of "avatar". */
+        img[title='avatar'] {
+            
+        }     
+        input[type="text"]{
+            
+        }
         
         
         
