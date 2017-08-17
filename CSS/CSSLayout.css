@@ -207,8 +207,13 @@ Display both columns horizontally so that they appear side by side on the same l
         in relation to their parent container.
             False 
         
+*/
         
+/* background image properties */
         
+background-image: url("image.png");
+background-repeat: no-repeat;
+background-position: center;       
         
         
         
