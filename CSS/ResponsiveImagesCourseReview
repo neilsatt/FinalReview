@@ -53,7 +53,24 @@ How does the srcset attribute differ from the src attribute?
 
 
 
+Srcset Challenge
+Modify the srcset attribute so that the @2x image photo-@2x.jpg comes first:
+          <div class="profile-image">
+            <img
+              srcset="photo-@2x.jpg 2x,
+                      photo-@1x.jpg 1x"
+              src="photo-@1x.jpg"
+              alt="Photograph of a flower."
+              />
+          </div>
+
+
+
 Adding Sizes Quiz: ----------------------------------------------------------------------------- 
+
+Sizes attribute: 
+    The sizes attribute specifies the sizes of icons for visual media.
+    This attribute is only used if rel="icon".
 
 What does the sizes attribute indicate to the browser?
     How much space an image should take up in the layout
@@ -66,7 +83,7 @@ If an image is 1000px wide and displayed @2x, how many CSS pixels wide will it b
     500px
 
 What's the difference between the length values in the srcset attribute versus the media conditions and length values in the sizes attribute?
-    The source set attribute tells the browser the native width of the image in pixels in pixels. 
+    The source set attribute tells the browser the native width of the image in pixels. 
     The sizes attribute tells the browser how much space that image will take up in the layout. 
     
     
@@ -82,8 +99,9 @@ When using srcset on an image element, Chrome will always use the lowest resolut
 Banner Image orientation is?
     Landscape
     
-
-    
+Challenge:
+The <picture> element has two child <source> elements. In the first <source> element, add a media attribute with a value that will only use the source when in landscape orientation. The second <source> element should not be modified.
+media="(orientation: landscape)"   
 
     
 
