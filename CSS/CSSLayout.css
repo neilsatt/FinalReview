@@ -123,6 +123,7 @@ Display both columns horizontally so that they appear side by side on the same l
         /* Quiz Review 
          Browsers display elements in the order they appear in the HTML source called:
             normal document flow
+        
          How do elements appear when they are in the normal document flow?
             block/inline stacked on top of each other, or on the same line 
             as contents and element besides them.  
@@ -161,7 +162,9 @@ Display both columns horizontally so that they appear side by side on the same l
  /* 
       Absolute Positioning 
       Absolutely Positioned elements rely on you telling the browser where to place them, using top, right, bottom or left 
+        
       When you use absolute positioning, you place the absolutely positioned elements in relation to a parent container; 
+        
       the parent container is the positioning context. 
       Items are taken out of the normal flow. Other items around it, don't know that it exists. 
       top: 0px;
@@ -236,6 +239,34 @@ Display both columns horizontally so that they appear side by side on the same l
         input[type="text"]{
             
         }
+        
+/* More CSS Quiz questions 
+        
+  Are inline-block elements affected by the vertical-align property?
+        Yes, You can set the vertical alignment of an inline block element with vertical align.
+        
+  What usually happens between elements displayed inline or inline-block?
+        The browser interprets line breaks and spaces in the HTML as content, so it displays
+        extra whitespace between elements. 
+        
+  Which of the following is true about inline elements?    
+        The browser will not apply any width and height properties or top
+        or bottom and bottom settings to inline elements.
+        
+  What's one advantage to using inline-block over inline display?
+        You can style inline-block elements as you would block-level 
+        elements (with width, height, top/bottom margin properties)
+        
+  What usually happens to the parent container of floated elements?
+        The container's height collapses because it doesn't honor the space of the floated elements
+        inside it. 
+        
+  Positioned elements written later in the source code appear below elements that are written earlier.
+        False
+        
+  
+        
+*/
         
         
         
