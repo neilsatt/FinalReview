@@ -63,6 +63,18 @@ for(i=2; i<=24; i+=2){
 }
 
 
+/* Quizzes and Challenges
+    When should you use loops?
+        When you want to repeat code over and over again a certain number of times. 
+    
+   do loop for password checking
+    
+
+
+
+
+*/
+
 
 
 

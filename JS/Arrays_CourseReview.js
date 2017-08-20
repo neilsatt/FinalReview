@@ -49,3 +49,6 @@ var playList = [
 for(i = 0; i<playList.length; i++){
     console.log(playList[i][0] + ':' + playList[i][1] );
 }
+
+// combine with separator
+array.join(,);
