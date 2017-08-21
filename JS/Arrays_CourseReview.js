@@ -28,6 +28,8 @@ scores.join(':'); // returns the array separated by character
 scores.concat(names); // combines both arrays
 var whatPosition = scores.indexOf(100); // returns the index location
 
+// indexOf returns a -1 if it can't find a matching item in an array
+
 /* Two Dimensional Arrays
    Store Arrays inside Arrays 
    Rows and Columns 
@@ -50,5 +52,5 @@ for(i = 0; i<playList.length; i++){
     console.log(playList[i][0] + ':' + playList[i][1] );
 }
 
-// combine with separator
-array.join(,);
+// combine with comma AND space
+array.join(', ');

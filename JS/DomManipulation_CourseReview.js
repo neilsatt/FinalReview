@@ -61,6 +61,10 @@ for( let i = 0; i < errorNotPurple.length; i += 1){
  What data type does document.getElementsByClassName return? - HTML Collection
  
  What data type does document.getElementById return? - HTML Element 
+ 
+ How can you apply changes to all the elements in an HTML collection?
+    By iterating over them with a for loop
+    
 
 */
 
@@ -80,9 +84,9 @@ for( let i = 0; i < evens.length; i += 1){
 /* 
     Challenge 
     On line 1 of app.js, set the variable listItems to refer to a collection. 
-    The collection should contain all list items in the unordered list element with the id of rainbow.
-    let listItems = document.querySelectorAll('#rainbow li');
+    The collection should contain all list items in the unordered list element with the id of rainbow. 
 */ 
+let listItems = document.querySelectorAll('#rainbow li');
 
 
 /*  Challenges
@@ -344,7 +348,7 @@ Get all the paragraph elements within section and assign them to the paragraphs 
             
             For every paragraph element change the color to be blue (use a loop)
             
-            for(i=0; i< paragraphs.length; i++){
+            for(var i=0; i< paragraphs.length; i++){  // DON'T FORGET VAR
                 paragraphs[i].style.color = "blue";
             }
 
@@ -361,6 +365,42 @@ section.addEventListener('click', (e) => {
 });
 
 
+// More Quiz Questions 
+/* 
+    How would you select the first element in the DOM with its HTML title attribute set
+    to "MyTitle"?
+*/
+    document.querySelector('[title=MyTitle]');
+
+/* 
+    Set the text content of the a tag to be the value stored in the variable inputValue.
+*/
+
+let inputValue = document.getElementById("linkName").value;
+let anchor  =  document.getElementById("link"); 
+anchor.textContent = inputValue;
+
+newParagraph.className = 'panel'; // style not needed, add className directly
+
+/* 
+    You can set a listener for an event you want to handle on a sibling of the parent of
+    your target element, because of event delegation.
+    False - the event handler has to be placed on a direct ancestor 
+  
+    Assign the last element chilc of div to the constant span
+*/
+ const span = div.lastElementChild;
+
+/* 
+    Assign all children of the ul to lis
+    
+*/
+const ul = document.getElementsByClassName('ul')[0];
+const lis = ul.children;
+    
+    
+
+ 
 
 
 
