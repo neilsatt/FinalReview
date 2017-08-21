@@ -50,3 +50,5 @@ var tasks = [
       assignedTo: "You"
   }
 ];
+
+/* print out each property

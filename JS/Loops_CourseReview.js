@@ -68,8 +68,18 @@ for(i=2; i<=24; i+=2){
         When you want to repeat code over and over again a certain number of times. 
     
    do loop for password checking
-    
+    var secret;
+        do {
+          secret = prompt("What is the secret password?");    
+        }
+        while ( secret !== "sesame" )
+        document.write("You know the secret password. Welcome.");
 
+
+    log out the numbers from  4 to 156 using a for loop
+        for(i=4; i <= 156; i++){
+          console.log(i);
+        }
 
 
 
