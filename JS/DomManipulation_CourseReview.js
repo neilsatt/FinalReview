@@ -121,7 +121,7 @@ let listItems = document.querySelectorAll('#rainbow li');
    
    
    //Styling Elements 
-   In console, see a element's styles = p.style
+   //In console, see a element's styles = p.style
    Change style = p.style.color = 'blue'
 
    //Toggle an element
@@ -167,7 +167,7 @@ let listItems = document.querySelectorAll('#rainbow li');
 // 4. Responding to User Interaction - Events
       Examples: click, dblclick, mousedown, mouseover, touch (mobile), keyboard, etc. 
 
-    Functions as Parameters
+    //Functions as Parameters
     function say(something) {
         console.log(something);
     }
@@ -176,26 +176,26 @@ let listItems = document.querySelectorAll('#rainbow li');
     }
     exec(say,'hello');
     
-    or
+    //or
     
     exec(function say(something){
      console.log('something');
     }, 'Hi, there');
     
     
-    Delaying execution with setTimeout()
+   // Delaying execution with setTimeout()
     window.setTimeout(function(){ 
             alert("Hello"); 
         }, 3000);
         
     
-    addEventListener 
+   // addEventListener 
         button.addEventListener('mouseover', function(){
             doSomething();
         });
         
         
-    Event Bubbling and Delegation
+   /*  Event Bubbling and Delegation
         An event received by an element doesn't stop with that one element. 
         That event moves to other elements like the parent, and other ancestors of the element. 
         This is called "event bubbling".
@@ -206,9 +206,9 @@ let listItems = document.querySelectorAll('#rainbow li');
     li - clicking here, also moves upward or bubbles up the DOM tree
     Bubbling allows us to listen for events on ancestor elements, instead of adding 
     event listeners to every element.
+    */
     
-    
-    Add and Event Listener to a parent element and let it handle events on it children
+    //Add an Event Listener to a parent element and let it handle events on it children
     event.target.tagName
     button.addEventListener('click', function(event){
     if(event.target.tagName === 'LI') {  // only select li items, needs to be all caps
@@ -239,7 +239,7 @@ let listItems = document.querySelectorAll('#rainbow li');
 // ----------------------------------------------------------------------------
 // 5. Traversing the DOM - moving around the nodes in the DOM 
 
-Using parentNode to Traverse Up the DOM
+//Using parentNode to Traverse Up the DOM
     var paragraph = document.getElementById('myParagraph');
     to remove the paragraph, you have to have a reference to the parent element
     var parent = paragraph.parentNode;
@@ -274,18 +274,21 @@ if(nextLi) {  // run only if there is a previous sibling
 
 
 /*  Code Challenge
-A delegated click event listener has been attached to the selected ul element, which is stored in the variable list. The handler is targeting each button in the list. When any one of the buttons is clicked, a class of highlight should be added to the paragraph element immediately preceding that button inside the parent list item element. Add the code to create this behavior on line 5.
+A delegated click event listener has been attached to the selected ul element, which is stored in the variable list. 
+The handler is targeting each button in the list. 
+When any one of the buttons is clicked, a class of highlight should be added to the paragraph element immediately preceding that button inside the parent list item element. 
+Add the code to create this behavior on line 5.
 */
 
 const list = document.getElementsByTagName('ul')[0];
 
 list.addEventListener('click', function(e) {
   if (e.target.tagName == 'BUTTON') {
-    // add highlight class to  paragraph
+    // 
     // immediately preceding the button
     // inside the parent list element  
-      let p = e.target.previousElementSibling;
-      p.className = "highlight";
+      let p = e.target.previousElementSibling; // p element prededing the button 
+      p.className = "highlight"; // add highlight class to the  paragraph
     
   }
 });
