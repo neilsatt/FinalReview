@@ -110,7 +110,7 @@ let listItems = document.querySelectorAll('#rainbow li');
    let myHeading = document.querySelector('hi');
    myHeading.textContent = 'New heading';
 
-   innerHTML can also read and alter elements 
+   //innerHTML can also read and alter elements 
    let ul = document.querySelector('ul'); 
    ul.innerHTML; // returns all of the ul content, including li elements and text
    

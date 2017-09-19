@@ -27,7 +27,7 @@ form.addEventListener('submit', function(e) {
 
 ul.addEventListener('change', function(e){
     console.log(e.target.checked);
-    const checkbox = event.target;
+    const checkbox = e.target;
     const checked = checkbox.checked;
     const listItem = checkbox.parentNode.parentNode;
     
