@@ -1,0 +1,110 @@
+
+ALL OF THE COURSE QUIZZES AND CHALLENGES
+
+
+
+
+https://teamtreehouse.com/library/javascript-and-the-dom-2/responding-to-user-interaction/adding-an-event-listener - IN JS REVIEW
+
+
+
+HTML -------------------------------------------------------------------------
+
+COURSES
+1) https://teamtreehouse.com/library/html-forms
+        https://teamtreehouse.com/library/html-forms/form-basics/create-a-form-element
+        https://teamtreehouse.com/library/html-forms/form-basics/create-a-text-input
+        https://teamtreehouse.com/library/html-forms/form-basics/create-a-textarea
+        https://teamtreehouse.com/library/add-labels
+        https://teamtreehouse.com/library/add-fieldsets-and-legends
+
+
+2) https://teamtreehouse.com/library/responsive-images
+        https://teamtreehouse.com/library/responsive-images/image-delivery-with-srcset-and-sizes/delivering-responsive-images-and-image-formats
+        https://teamtreehouse.com/library/responsive-images/image-delivery-with-srcset-and-sizes/srcset-with-picturefill-2
+        https://teamtreehouse.com/library/responsive-images/image-delivery-with-srcset-and-sizes/using-srcset-2
+        https://teamtreehouse.com/library/responsive-images/image-delivery-with-srcset-and-sizes/adding-sizes-2
+        
+
+
+OTHER CHALLENGES AND QUIZZES
+https://teamtreehouse.com/library/how-to-make-a-website/html-first/use-html-elements
+https://teamtreehouse.com/library/create-navigation-with-lists
+https://teamtreehouse.com/library/how-to-make-a-website/creating-html-content/organize-with-unordered-lists
+
+
+
+
+CSS --------------------------------------------------------------------------
+
+COURSE
+3) https://teamtreehouse.com/library/css-layout-basics
+    https://teamtreehouse.com/library/css-layout-basics/getting-started-with-css-layout/layout-wrapper-challenge
+    https://teamtreehouse.com/library/css-layout-basics/controlling-layout-with-css-display-modes/css-display-modes-challenge
+    https://teamtreehouse.com/library/css-layout-basics/page-layout-with-the-float-property/footer-layout-with-floats
+    https://teamtreehouse.com/library/css-layout-basics/positioning-page-content/css-positioning-challenge
+    https://teamtreehouse.com/library/css-basics/basic-layout/-floats
+    https://teamtreehouse.com/library/css-basics/basic-layout/styling-the-wildlife-div-with-background-properties
+    
+    
+    OTHER CHALLENGES AND QUIZZES
+    https://teamtreehouse.com/library/how-to-make-a-website/styling-web-pages-and-navigation/make-a-css-image-gallery
+    
+    https://teamtreehouse.com/library/css-basics/the-box-model/padding-borders-and-margins
+    
+    https://teamtreehouse.com/library/css-selectors/selectors-beyond-the-basics/attribute-selectors-challenge
+
+
+
+
+
+JS ----------------------------------------------------------------------------
+4) https://teamtreehouse.com/library/javascript-loops-arrays-and-objects
+        https://teamtreehouse.com/library/javascript-arrays-and-loops/simplify-repetitive-tasks-with-loops/review-loops
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/complete-the-loop
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/a-closer-look-at-loop-conditions
+        https://teamtreehouse.com/library/javascript-arrays-and-loops/simplify-repetitive-tasks-with-loops/review-while-loops-dowhile-loops-and-loop-conditions
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/create-a-for-loop
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/review-for-loops-and-loop-exiting
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/refactor-using-a-loop
+        
+        
+       
+        
+
+
+5) https://teamtreehouse.com/library/javascript-and-the-dom-2
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/getting-a-handle-on-the-dom/selecting-by-id
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/responding-to-user-interaction/adding-an-event-listener
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/traversing-the-dom/parent-traversal
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/making-changes-to-the-dom/dom-manipulation
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/making-changes-to-the-dom/modifying-elements
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/responding-to-user-interaction/event-delegation
+        
+
+    OTHER CHALLENGES AND QUIZZES
+    https://teamtreehouse.com/library/javascript-basics/making-decisions-with-conditional-statements/introducing-conditional-statements-2
+    https://teamtreehouse.com/library/javascript-basics/making-decisions-with-conditional-statements/using-comparison-operators
+    https://teamtreehouse.com/library/javascript-basics/making-decisions-with-conditional-statements/booleans
+    https://teamtreehouse.com/library/javascript-basics/making-decisions-with-conditional-statements/super-conditional-challenge
+    
+    https://teamtreehouse.com/library/javascript-basics/creating-reusable-code-with-functions/creating-a-function
+    https://teamtreehouse.com/library/javascript-basics/creating-reusable-code-with-functions/returning-a-value-from-a-function
+    https://teamtreehouse.com/library/javascript-basics/creating-reusable-code-with-functions/passing-an-argument-to-a-function
+    https://teamtreehouse.com/library/javascript-basics/creating-reusable-code-with-functions/create-a-max-function
+    
+    
+    
+
+THINGS THAT NEED REVIEW -----------------------------------------------------------------------------
+https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/create-a-dowhile-loop
+var secret;
+do {
+  secret = prompt("What is the secret password?");    
+} while ( secret !== "sesame" );
+document.write("You know the secret password. Welcome.");
+
+    
+
+    
+    
