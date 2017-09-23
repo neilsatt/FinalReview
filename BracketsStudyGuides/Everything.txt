@@ -2,12 +2,6 @@
 ALL OF THE COURSE QUIZZES AND CHALLENGES
 
 
-
-
-https://teamtreehouse.com/library/javascript-and-the-dom-2/responding-to-user-interaction/adding-an-event-listener - IN JS REVIEW
-
-
-
 HTML -------------------------------------------------------------------------
 
 COURSES
@@ -58,8 +52,10 @@ COURSE
 
 
 
-JS ----------------------------------------------------------------------------
+JS ----------------------------------------------------------------------------   DONE 9/23
 4) https://teamtreehouse.com/library/javascript-loops-arrays-and-objects
+
+        LOOPS
         https://teamtreehouse.com/library/javascript-arrays-and-loops/simplify-repetitive-tasks-with-loops/review-loops
         https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/complete-the-loop
         https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/a-closer-look-at-loop-conditions
@@ -68,8 +64,23 @@ JS ----------------------------------------------------------------------------
         https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/review-for-loops-and-loop-exiting
         https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/refactor-using-a-loop
         
+        ARRAYS 
+        https://teamtreehouse.com/library/javascript-arrays-and-loops/tracking-multiple-items-with-arrays/create-an-array
+        https://teamtreehouse.com/library/javascript-arrays-and-loops/tracking-multiple-items-with-arrays/review-array-basics
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-multiple-items-with-arrays/using-array-indices
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-multiple-items-with-arrays/adding-items-to-an-array
+        https://teamtreehouse.com/library/javascript-arrays-and-loops/tracking-multiple-items-with-arrays/review-adding-and-removing-items-from-arrays
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-multiple-items-with-arrays/removing-items-from-an-array
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-multiple-items-with-arrays/iterating-through-an-array
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-multiple-items-with-arrays/using-array-methods
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-multiple-items-with-arrays/create-a-two-dimensional-array
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-multiple-items-with-arrays/create-a-two-dimensional-array
+        https://teamtreehouse.com/library/javascript-arrays-and-loops/tracking-multiple-items-with-arrays/review-array-methods-iterating-and-twodimensional-arrays
         
-       
+        OBJECTS 
+        
+        
+        REVIEW TWO ISSUES BELOW 
         
 
 
@@ -103,6 +114,12 @@ do {
   secret = prompt("What is the secret password?");    
 } while ( secret !== "sesame" );
 document.write("You know the secret password. Welcome.");
+
+https://teamtreehouse.com/library/javascript-arrays-and-loops/tracking-multiple-items-with-arrays/review-adding-and-removing-items-from-arrays
+Shift vs. Unshift
+    shift() - removes removes an item from the beginning of an array.
+    unshift() - adds an item to the beginning of an array.
+
 
     
 
