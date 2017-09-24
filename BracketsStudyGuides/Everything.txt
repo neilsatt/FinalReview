@@ -52,8 +52,8 @@ COURSE
 
 
 
-JS ----------------------------------------------------------------------------   DONE 9/23
-4) https://teamtreehouse.com/library/javascript-loops-arrays-and-objects
+JS ----------------------------------------------------------------------------   
+4) https://teamtreehouse.com/library/javascript-loops-arrays-and-objects -- DONE 9/23
 
         LOOPS
         https://teamtreehouse.com/library/javascript-arrays-and-loops/simplify-repetitive-tasks-with-loops/review-loops
@@ -78,19 +78,53 @@ JS ---------------------------------------------------------------------------- 
         https://teamtreehouse.com/library/javascript-arrays-and-loops/tracking-multiple-items-with-arrays/review-array-methods-iterating-and-twodimensional-arrays
         
         OBJECTS 
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-data-using-objects/create-an-empty-javascript-object
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-data-using-objects/add-properties-to-an-object
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-data-using-objects/review-object-basics
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-data-using-objects/access-and-set-object-properties
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-data-using-objects/accessing-all-of-the-properties-in-an-object
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-data-using-objects/create-an-array-of-objects
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-data-using-objects/review-for-in-loops-arrays-of-objects-and-json
+        https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/tracking-data-using-objects/review-loops-arrays-and-objects
+       
         
         
-        REVIEW TWO ISSUES BELOW 
+        **REVIEW TWO ISSUES BELOW**
         
 
 
-5) https://teamtreehouse.com/library/javascript-and-the-dom-2
+5) https://teamtreehouse.com/library/javascript-and-the-dom-2 
+
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/the-browser-environment/the-browser-environment-review
+        
         https://teamtreehouse.com/library/javascript-and-the-dom-2/getting-a-handle-on-the-dom/selecting-by-id
-        https://teamtreehouse.com/library/javascript-and-the-dom-2/responding-to-user-interaction/adding-an-event-listener
-        https://teamtreehouse.com/library/javascript-and-the-dom-2/traversing-the-dom/parent-traversal
-        https://teamtreehouse.com/library/javascript-and-the-dom-2/making-changes-to-the-dom/dom-manipulation
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/getting-a-handle-on-the-dom/selection-review
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/getting-a-handle-on-the-dom/selecting-multiple-elements
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/getting-a-handle-on-the-dom/dom-selection-more-review
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/getting-a-handle-on-the-dom/practice-selecting-elements
+        
         https://teamtreehouse.com/library/javascript-and-the-dom-2/making-changes-to-the-dom/modifying-elements
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/making-changes-to-the-dom/style-and-element-creation
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/making-changes-to-the-dom/dom-manipulation
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/making-changes-to-the-dom/removing-an-element-from-the-dom
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/making-changes-to-the-dom/appending-and-removing-nodes
+        
+        
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/responding-to-user-interaction/events-and-functions-as-parameters-review
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/responding-to-user-interaction/adding-an-event-listener
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/responding-to-user-interaction/event-listening-bubbling-and-delegation
         https://teamtreehouse.com/library/javascript-and-the-dom-2/responding-to-user-interaction/event-delegation
+        
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/traversing-the-dom/parent-traversal
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/traversing-the-dom/traversal-review
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/traversing-the-dom/sibling-traversal
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/traversing-the-dom/dom-traversal-more-review
+        https://teamtreehouse.com/library/javascript-and-the-dom-2/traversing-the-dom/child-traversal
+        
+        
+        
+        
+        
         
 
     OTHER CHALLENGES AND QUIZZES
@@ -108,6 +142,9 @@ JS ---------------------------------------------------------------------------- 
     
 
 THINGS THAT NEED REVIEW -----------------------------------------------------------------------------
+
+
+LOOPS ARRAYS AND OBJECTS -------------------------------------
 https://teamtreehouse.com/library/javascript-loops-arrays-and-objects/simplify-repetitive-tasks-with-loops/create-a-dowhile-loop
 var secret;
 do {
@@ -120,8 +157,42 @@ Shift vs. Unshift
     shift() - removes removes an item from the beginning of an array.
     unshift() - adds an item to the beginning of an array.
 
+Alternate Object property notation: animal['weight'] = 770;
 
-    
+for in Property review:
+var shanghai = {
+  population: 14.35e6,
+  longitude: '31.2000 N',
+  latitude: '121.5000 E',
+  country: 'CHN'
+};
+Version 1 - Properties Only 
+for(var prop in shanghai) {
+  console.log(prop); // logs out the properties, but not the value
+}
+
+Version 2 - Properties and Values
+for(var prop in shanghai) {
+  console.log(prop + ": " +shanghai[prop]);  // logs out "population: 14.35e6"
+}
+
+
+JS AND THE DOM --------------------------------------------
+https://teamtreehouse.com/library/javascript-and-the-dom-2/getting-a-handle-on-the-dom/selection-review
+How would you select the body element using document.getElementsByTagName, and store it in the variable body?
+const body = document.getElementsByTagName('body')[0]   
+
+
+https://teamtreehouse.com/library/javascript-and-the-dom-2/getting-a-handle-on-the-dom/selecting-multiple-elements
+On line 1 of app.js, set the variable listItems to refer to a collection. The collection should contain all list items in the 
+unordered list element with the id of rainbow.
+
+listItems = document.querySelectorAll('#rainbow li');
+const colors = ["#C2272D", "#F8931F", "#FFFF01", "#009245", "#0193D9", "#0C04ED", "#612F90"];
+
+for(var i = 0; i < colors.length; i ++) {
+  listItems[i].style.color = colors[i];    
+}
 
     
     
