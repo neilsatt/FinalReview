@@ -93,7 +93,7 @@ JS ----------------------------------------------------------------------------
         
 
 
-5) https://teamtreehouse.com/library/javascript-and-the-dom-2 
+5) https://teamtreehouse.com/library/javascript-and-the-dom-2 -- DONE 9/24 
 
         https://teamtreehouse.com/library/javascript-and-the-dom-2/the-browser-environment/the-browser-environment-review
         
@@ -127,7 +127,7 @@ JS ----------------------------------------------------------------------------
         
         
 
-    OTHER CHALLENGES AND QUIZZES
+    OTHER CHALLENGES AND QUIZZES - DONE 9/24 (No Issues)
     https://teamtreehouse.com/library/javascript-basics/making-decisions-with-conditional-statements/introducing-conditional-statements-2
     https://teamtreehouse.com/library/javascript-basics/making-decisions-with-conditional-statements/using-comparison-operators
     https://teamtreehouse.com/library/javascript-basics/making-decisions-with-conditional-statements/booleans
