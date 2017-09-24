@@ -123,7 +123,7 @@ JS ----------------------------------------------------------------------------
         
         
         
-        
+        **REVIEW FOUR ISSUES BELOW**
         
         
 
@@ -193,6 +193,32 @@ const colors = ["#C2272D", "#F8931F", "#FFFF01", "#009245", "#0193D9", "#0C04ED"
 for(var i = 0; i < colors.length; i ++) {
   listItems[i].style.color = colors[i];    
 }
+
+
+https://teamtreehouse.com/library/javascript-and-the-dom-2/traversing-the-dom/sibling-traversal
+const list = document.getElementsByTagName('ul')[0];
+
+list.addEventListener('click', function(e) {
+  if (e.target.tagName == 'BUTTON') {
+    var p = e.target.previousElementSibling; // ADD THE VAR DECLARATION!!!!
+    p.className = 'highlight';
+  }
+});
+
+// Assign all children of the UL to lis
+const ul = document.getElementsByClassName('ul')[0];
+const lis = ul.children;
+
+
+https://teamtreehouse.com/library/javascript-and-the-dom-2/traversing-the-dom/child-traversal
+Get all the paragraph elements within section and assign them to the paragraphs variable.
+const section = document.querySelector('section');
+let paragraphs = section.children;
+for(var i=0; i<paragraphs.length; i++){
+ paragraphs[i].style.color = 'blue';  // ADD THE 'i' TO INCREMENT THROUGH ALL OF THE PARAGRAPHS
+}
+
+
 
     
     
