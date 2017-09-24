@@ -2,7 +2,7 @@
 ALL OF THE COURSE QUIZZES AND CHALLENGES
 
 
-HTML -------------------------------------------------------------------------
+HTML -------------------------------------------------------------------------- DONE 9/23
 
 COURSES
 1) https://teamtreehouse.com/library/html-forms
@@ -27,6 +27,8 @@ https://teamtreehouse.com/library/create-navigation-with-lists
 https://teamtreehouse.com/library/how-to-make-a-website/creating-html-content/organize-with-unordered-lists
 
 
+
+    **REVIEW ONE ISSUE BELOW**
 
 
 CSS --------------------------------------------------------------------------
@@ -219,6 +221,7 @@ for(var i=0; i<paragraphs.length; i++){
 }
 
 
-
-    
-    
+HTML REVIEW ---------------------------------------------------------------------------------
+What's the difference between the length values in the srcset attribute versus the media conditions and length values in the sizes attribute?
+    Source Set - native width of the image in pixels
+    Sizes - how much space the image will take
