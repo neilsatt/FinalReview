@@ -2,7 +2,7 @@
 ALL OF THE COURSE QUIZZES AND CHALLENGES
 
 
-HTML -------------------------------------------------------------------------- DONE 9/23
+HTML -------------------------------------------------------------------------- DONE 9/24
 
 COURSES
 1) https://teamtreehouse.com/library/html-forms
@@ -31,7 +31,7 @@ https://teamtreehouse.com/library/how-to-make-a-website/creating-html-content/or
     **REVIEW ONE ISSUE BELOW**
 
 
-CSS --------------------------------------------------------------------------
+CSS -------------------------------------------------------------------------- -- DONE 9/24
 
 COURSE
 3) https://teamtreehouse.com/library/css-layout-basics
@@ -225,3 +225,12 @@ HTML REVIEW --------------------------------------------------------------------
 What's the difference between the length values in the srcset attribute versus the media conditions and length values in the sizes attribute?
     Source Set - native width of the image in pixels
     Sizes - how much space the image will take
+    
+
+CSS REVIEW ---------------------------------------------------------------------------------------
+DON'T FORGET LIST ITEMS INSIDE OF MAIN NAV !!!
+https://teamtreehouse.com/library/css-layout-basics/controlling-layout-with-css-display-modes/css-display-modes-challenge
+
+.main-nav li {
+ display: inline-block;
+}
